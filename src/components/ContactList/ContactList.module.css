@@ -1,0 +1,24 @@
+.item {
+  font-size: 20px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+
+}
+.number{
+  margin-left: 15px;
+}
+.button {
+  margin-left: 15px;
+  width: 60px;
+  height: 24px;
+  background: rgb(201, 196, 196);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+}

@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.input {
+  margin-bottom: 30px;
+  height: 30px;
+  border-radius: 5px;
+  width: 250px;
+}
+.label {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.button {
+  background: rgb(201, 196, 196);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100px;
+  height: 24px;
+}
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+}
